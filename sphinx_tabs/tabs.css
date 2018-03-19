@@ -29,13 +29,6 @@
     box-sizing: border-box;
 }
 
-.tab .wy-plain-list-disc:last-child,
-.rst-content .section ul:last-child,
-.rst-content .toctree-wrapper ul:last-child,
-article ul:last-child {
-    margin-bottom: 0;
-}
-
 /* Code tabs don't need the code-block border */
 .code-tab.tab {
     padding: 0.4em !important;

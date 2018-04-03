@@ -1,6 +1,5 @@
 .sphinx-tabs {
     margin-bottom: 2em;
-
 }
 
 .sphinx-tabs .sphinx-menu a.item {
@@ -18,6 +17,12 @@
 
 .sphinx-tab {
     border-color: #B89349 !important;
+    background: #333 !important;
+    box-sizing: border-box;
+}
+
+.tab div[class^='highlight'] {
+    border: none;
     background: #333 !important;
     box-sizing: border-box;
 }
